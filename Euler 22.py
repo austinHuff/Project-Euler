@@ -1,4 +1,5 @@
 # Project Euler number 22
+# Uses names.txt file
 
 with open('names.txt','r') as n:
     names = n.read()

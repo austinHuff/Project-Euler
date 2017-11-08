@@ -1,6 +1,6 @@
 import math
 
-# project euler problem 125
+# Project Euler problem 125
 
 total = 0
 for num in range(1,100000001):
@@ -13,9 +13,7 @@ for num in range(1,100000001):
             while i <= j <= math.sqrt(num):
                 k = j
                 testB = True
-                #print("for j=" , j)
                 while k < int(math.sqrt(num)) & testB == True:
-                    #print("while k=",k)
                     testSum += (k**2)
                     if testSum < num:
                         k = k +1
